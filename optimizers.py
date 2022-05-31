@@ -127,8 +127,8 @@ class Algorithms:
         it = 0
         while norm(w - self.location) > 1e-7:
             it += 1
-            v = beta * v + (1 - beta) * np.array(self.grad(w[0], w[1]))
-            w -= mu * v
+            v = beta * v - mu * np.array(self.grad(w[0], w[1]))
+            w += v
             self.weights.append([w[0], w[1]])
             if self.stop_flag is True or it == 5000:
                 break
