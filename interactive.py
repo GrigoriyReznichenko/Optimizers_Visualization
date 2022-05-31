@@ -1,6 +1,5 @@
 from init import Ui_Form
 from PyQt5 import QtGui
-import imgs
 
 class ParamsSetter(Ui_Form):
     """Сlass that controls user interaction.
@@ -255,79 +254,79 @@ class ParamsSetter(Ui_Form):
         """Stop drawing and set param to self.params and set it to corresponding QLineText"""
         self.draw = False
         self.params['SGD']['mu'] = val / 10000
-        self.val_sgd_mu.setText(self._translate("Form", f"{val / 10000}"))
+        self.val_sgd_mu.setText(self._translate("Optimizers Visualization", f"{val / 10000}"))
 
     def set_rms_mu_dial(self, val):
         self.draw = False
         self.params['RMSProp']['mu'] = val / 10000
-        self.val_rms_mu.setText(self._translate("Form", f"{val / 10000}"))
+        self.val_rms_mu.setText(self._translate("Optimizers Visualization", f"{val / 10000}"))
 
     def set_rms_beta_dial(self, val):
         self.draw = False
         self.params['RMSProp']['beta'] = val / 1000
-        self.val_rms_beta.setText(self._translate("Form", f"{val / 1000}"))
+        self.val_rms_beta.setText(self._translate("Optimizers Visualization", f"{val / 1000}"))
 
     def set_rms_eps_dial(self, val):
         self.draw = False
         self.params['RMSProp']['eps'] = val / 1000000
-        self.val_rms_eps.setText(self._translate("Form", f"{val / 1000000}"))
+        self.val_rms_eps.setText(self._translate("Optimizers Visualization", f"{val / 1000000}"))
 
     def set_momentum_mu_dial(self, val):
         self.draw = False
         self.params['Momentum']['mu'] = val / 10000
-        self.val_momentum_mu.setText(self._translate("Form", f"{val / 10000}"))
+        self.val_momentum_mu.setText(self._translate("Optimizers Visualization", f"{val / 10000}"))
 
     def set_momentum_beta_dial(self, val):
         self.draw = False
         self.params['Momentum']['beta'] = val / 1000
-        self.val_momentum_beta.setText(self._translate("Form", f"{val / 1000}"))
+        self.val_momentum_beta.setText(self._translate("Optimizers Visualization", f"{val / 1000}"))
 
     def set_adagrad_mu_dial(self, val):
         self.draw = False
         self.params['Adagrad']['mu'] = val / 500
-        self.val_adagrad_mu.setText(self._translate("Form", f"{val / 500}"))
+        self.val_adagrad_mu.setText(self._translate("Optimizers Visualization", f"{val / 500}"))
 
     def set_adagrad_eps_dial(self, val):
         self.draw = False
         self.params['Adagrad']['eps'] = val / 1000000
-        self.val_adagrad_eps.setText(self._translate("Form", f"{val / 1000000}"))
+        self.val_adagrad_eps.setText(self._translate("Optimizers Visualization", f"{val / 1000000}"))
 
     def set_adadelta_mu_dial(self, val):
         self.draw = False
         self.params['Adadelta']['mu'] = val / 10000
-        self.val_adadelta_mu.setText(self._translate("Form", f"{val / 10000}"))
+        self.val_adadelta_mu.setText(self._translate("Optimizers Visualization", f"{val / 10000}"))
 
     def set_adadelta_beta_dial(self, val):
         self.draw = False
         self.params['Adadelta']['beta'] = val / 1000
-        self.val_adadelta_beta.setText(self._translate("Form", f"{val / 1000}"))
+        self.val_adadelta_beta.setText(self._translate("Optimizers Visualization", f"{val / 1000}"))
 
     def set_adadelta_gamma_dial(self, val):
         self.draw = False
         self.params['Adadelta']['gamma'] = val / 1000
-        self.val_adadelta_gamma.setText(self._translate("Form", f"{val / 1000}"))
+        self.val_adadelta_gamma.setText(self._translate("Optimizers Visualization", f"{val / 1000}"))
 
     def set_adadelta_eps_dial(self, val):
         self.draw = False
         self.params['Adadelta']['eps'] = val / 1000000
-        self.val_adadelta_eps.setText(self._translate("Form", f"{val / 1000000}"))
+        self.val_adadelta_eps.setText(self._translate("Optimizers Visualization", f"{val / 1000000}"))
 
     def set_adam_mu_dial(self, val):
         self.draw = False
         self.params['Adam']['mu'] = val / 10000
-        self.val_adam_mu.setText(self._translate("Form", f"{val / 10000}"))
+        self.val_adam_mu.setText(self._translate("Optimizers Visualization", f"{val / 10000}"))
 
     def set_adam_beta_dial(self, val):
         self.draw = False
         self.params['Adam']['beta'] = val / 1000
-        self.val_adam_beta.setText(self._translate("Form", f"{val / 1000}"))
+        self.val_adam_beta.setText(self._translate("Optimizers Visualization", f"{val / 1000}"))
 
     def set_adam_gamma_dial(self, val):
         self.draw = False
         self.params['Adam']['gamma'] = val / 1000
-        self.val_adam_gamma.setText(self._translate("Form", f"{val / 1000}"))
+        self.val_adam_gamma.setText(self._translate("Optimizers Visualization", f"{val / 1000}"))
 
     def set_adam_eps_dial(self, val):
         self.draw = False
         self.params['Adam']['eps'] = val / 1000000
-        self.val_adam_eps.setText(self._translate("Form", f"{val / 1000000}"))
+        self.val_adam_eps.setText(self._translate("Optimizers Visualization", f"{val / 1000000}"))
