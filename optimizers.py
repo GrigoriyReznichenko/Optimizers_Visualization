@@ -28,8 +28,8 @@ class Derivatives:
             return self.sphere_grad(), surface
 
     def Himmelblaus_grad(self):
-        grad = lambda x, y: [2 * (pow(x, 2) + 2 * y * (x + pow(y, 2) - 7) + y - 11),
-                             2 * (pow(y, 2) + 2 * x * (y + pow(x, 2) - 11) + x - 7)]
+        grad = lambda x, y: [2 * (pow(y, 2) + 2 * x * (y + pow(x, 2) - 11) + x - 7),
+                             2 * (pow(x, 2) + 2 * y * (x + pow(y, 2) - 7) + y - 11),]
         return grad
 
     def Beale_grad(self):
