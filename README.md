@@ -1,5 +1,7 @@
 # Optimizers_Visualization
 Linux exe: https://github.com/GrigoriyReznichenko/Optimizers_Visualization/blob/executable/Optimizer%20Visualization.zip
+Windows exe: soon
+
 During the training of neural networks, each of us faced such problems as the termination of loss minimization because of vallyes or surface saddle points, etc. 
 Here is an application that will help you draw some conclusions based on which you can improve the training of your neural networks. It shows most popular optimization algorithms in process for low dimension surface case. It visualizes problems like getting stuck at saddle points and how Adam sometimes failures for strongly convex optimization case.
 
@@ -57,7 +59,7 @@ For truly based Adadelta it is used to $\gamma = \beta$. In my case there are di
 	
 The codition of convegrence of the algorithm is the case when Euclidian distance between optimal point and current point is smaller then threshold.
 
-##How to use:
+### How to use
 
 Choose surface and optimization parameters. 
 Click the left mouse button and visualization will start
