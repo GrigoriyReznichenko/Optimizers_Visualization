@@ -62,7 +62,7 @@ The codition of convegrence of the algorithm is the case when Euclidian distance
 ### How to use
 
 Choose surface and optimization parameters. 
-Click the left mouse button inside surface image and visualization will start
+Click left mouse button inside surface image and visualization will start
 
 ![Peek 2022-06-01 05-18](https://user-images.githubusercontent.com/99965144/171304169-9e595915-1d2d-4cce-9954-ff1c91951f1a.gif)
 
