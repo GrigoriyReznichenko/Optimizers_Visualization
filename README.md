@@ -40,7 +40,7 @@ The optimization algorithms are:
 	
 	$s_{k+1}=\gamma s_{k}+\left(1-\gamma\right)\nabla^{2}J(w_{k+1})$
 	
-For truly based Adadelta it is used to $\gamma = \beta$. In my case there are different hyperparameters for more space of experience.
+For truly based Adadelta it is used to $\gamma = \beta$. In my case this hyperparameters can be different for more space of experience.
 
 6) Adam Optimizer:
 
