@@ -35,7 +35,7 @@ class Derivatives:
     def Beale_grad(self):
         grad = lambda x, y: [2 * x * (pow(y, 6) + pow(y, 4) - 2 * pow(y, 3) - pow(y, 2) - 2 * y + 3) + \
                              5.25 * pow(y, 3) + 4.5 * pow(y, 2) + 3 * y - 12.75,
-                             6 * x * (x * (pow(y, 5) + 2 / 3 * pow(y, 3) - pow(y, 2) - 1 / 3) + \
+                             6 * x * (x * (pow(y, 5) + 2 / 3 * pow(y, 3) - pow(y, 2) - 1 / 3 * y - 1 / 3) + \
                                       2.625 * pow(y, 2) + 1.5 * y + 0.5)]
         return grad
 
@@ -44,7 +44,7 @@ class Derivatives:
         return grad
 
     def Bukin_n6_grad(self):
-        grad = lambda x, y: [0.01 * np.sign(x + 10) + (x * (y - 0.01 * pow(x, 2))) \
+        grad = lambda x, y: [0.01 * np.sign(x + 10) - (x * (y - 0.01 * pow(x, 2))) \
                              / pow(np.abs(y - 0.01 * pow(x, 2)), 3 / 2),
                              (50 * (y - 0.01 * pow(x, 2))) / pow(np.abs(y - 0.01 * pow(x, 2)), 3 / 2)]
         return grad
