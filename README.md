@@ -1,5 +1,5 @@
 # Optimizers_Visualization
-Linux exe: https://github.com/GrigoriyReznichenko/Optimizers_Visualization/blob/executable/Optimizer%20Visualization.zip
+Linux exe: [https://github.com/GrigoriyReznichenko/Optimizers_Visualization/blob/executable/Optimizer%20Visualization.zip](https://github.com/GrigoriyReznichenko/Optimizers_Visualization/tree/executable)
 Windows exe: soon
 
 During the training of neural networks, each of us faced such problems as the termination of loss minimization because of vallyes or surface saddle points, etc. 
