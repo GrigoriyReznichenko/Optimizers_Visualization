@@ -1,8 +1,8 @@
 # Optimizers_Visualization
-During the training of neural networks, each of us faced such problems as the termination of loss minimization because of vallyes or surface saddle points, etc.
-Here is a GUI which shows most popular optimization algorithms in process. It visualizes problems like getting stuck at saddle points and Adam sometimes failures for strongly convex optimization case.
+During the training of neural networks, each of us faced such problems as the termination of loss minimization because of vallyes or surface saddle points, etc. 
+Here is an application that will help you draw some conclusions based on which you can improve the training of your neural networks. It shows most popular optimization algorithms in process for low dimension surface case. It visualizes problems like getting stuck at saddle points and how Adam sometimes failures for strongly convex optimization case.
 
-The GUI demonstrates some of optimization surfaces I've got from here: https://en.wikipedia.org/wiki/Test_functions_for_optimization
+The application demonstrates some of optimization surfaces I've got from here: https://en.wikipedia.org/wiki/Test_functions_for_optimization
 
 The optimization algorithms are:
 
@@ -54,10 +54,16 @@ For truly based Adadelta it is used to $\gamma = \beta$. In my case there are di
 	
 	$w_{k+1}=w_{k}-\frac{\mu}{\sqrt{s_{k+1}^{scaled}+\varepsilon}}v_{k+1}^{scaled}$
 	
-The codition of convegrence of the algorithm is the case whe Euclidian distance between optimal point and current point is smaller then threshold.
+The codition of convegrence of the algorithm is the case when Euclidian distance between optimal point and current point is smaller then threshold.
+
+##How to use:
+
+Choose surface and optimization parameters. 
+Click the left mouse button and visualization will start
+
+![Peek 2022-06-01 05-18](https://user-images.githubusercontent.com/99965144/171304169-9e595915-1d2d-4cce-9954-ff1c91951f1a.gif)
 
 
-	
 	
 		
 		
