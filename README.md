@@ -5,7 +5,7 @@ Windows exe: soon
 During the training of neural networks, each of us faced such problems as the termination of loss minimization because of vallyes or surface saddle points, etc. 
 Here is an application that will help you to improve your understanding of optimization process to improve the training of your neural networks. It shows most popular optimization algorithms in process for low dimension surface case. It visualizes problems like getting stuck at saddle points and how Adam sometimes failures for strongly convex optimization case.
 
-The application demonstrates some of optimization surfaces I've got from here: https://en.wikipedia.org/wiki/Test_functions_for_optimization
+I've got surfaces from here: https://en.wikipedia.org/wiki/Test_functions_for_optimization
 
 The optimization algorithms are:
 
