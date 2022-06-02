@@ -1,6 +1,6 @@
 # Optimizers_Visualization
-Linux exe: [https://github.com/GrigoriyReznichenko/Optimizers_Visualization/blob/executable/Optimizer%20Visualization.zip](https://github.com/GrigoriyReznichenko/Optimizers_Visualization/tree/executable)
-Windows exe: soon
+Linux exe: https://github.com/GrigoriyReznichenko/Optimizers_Visualization/blob/executable/Optimizer%20Visualization.zip
+Windows exe: https://github.com/GrigoriyReznichenko/Optimizers_Visualization/blob/executable/Optimizer%20visualization%20win.zip
 
 During the training of neural networks, each of us faced such problems as the termination of loss minimization because of vallyes or surface saddle points, etc. 
 Here is an application that will help you to improve your understanding of optimization process to improve the training of your neural networks. It shows most popular optimization algorithms in process for low dimension surface case. It visualizes problems like getting stuck at saddle points and how Adam sometimes failures for strongly convex optimization case.
