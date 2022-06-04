@@ -39,7 +39,7 @@ The optimization algorithms are:
 	
 	$w_{k+1}=w_{k}-\triangle w$
 	
-	$s_{k+1}=\gamma s_{k}+\left(1-\gamma\right)\nabla^{2}J(w_{k+1})$
+	$s_{k+1}=\gamma s_{k}+\left(1-\gamma\right)\triangle w^{2}$
 	
 For truly based Adadelta it is used to $\gamma = \beta$. In my case this hyperparameters can be different for more space of experience.
 
